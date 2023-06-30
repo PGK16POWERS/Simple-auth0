@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom, antiquewhite, lightgray);
+    height: 100vh;
+    padding: 2rem;
+}
+#protected {
+    background: linear-gradient(to bottom, rgb(247, 185, 103), rgb(244, 130, 130));
+}
+.div-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+a {
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    font-family: monospace;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    transition-duration: 0.3s;
+}
+a:hover {
+    letter-spacing: 7px;
+    color: rgb(250, 0, 0);
+}
